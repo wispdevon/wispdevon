@@ -14,7 +14,7 @@
 
 <h3 align="left">Connect with me:</h3>
 <p align="left">
-<a href="https://www.last.fm/user/wisp-" target="blank"><img align="center" src="https://raw.githubusercontent.com/wispdevon/wispdevon/main/Lastfm.svg" alt="wispdevon" height="30" width="40" /></a>
+<a href="https://www.last.fm/user/wisp-" target="blank"><img align="center" src="https://raw.githubusercontent.com/wispdevon/wispdevon/main/Lastfm.svg" alt="wispdevon" height="40" width="40" /></a>
 
 </p>
 
