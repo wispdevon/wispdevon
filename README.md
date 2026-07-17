@@ -1,15 +1,61 @@
-<h1 align="center">Hi 👋, I'm Wisp</h1>
-<h3 align="center">Some developer and freelancer from Thailand</h3>
+<a id="readme-top"></a>
 
-<p align="left"> <img src="https://komarev.com/ghpvc/?username=wispdevon&label=Profile%20views&color=905f6a&style=flat" alt="wispdevon" /> </p>
+<div align="center">
 
-<h3 align="left">Connect with me:</h3>
-<p align="left">
-<a href="https://www.last.fm/user/wisp-" target="blank"><img align="center" src="https://raw.githubusercontent.com/wispdevon/wispdevon/main/Lastfm.svg" alt="wispdevon" height="40" width="40" /></a>
+# Hey, I'm Wisp.
 
-</p>
+### I build thoughtful software for photographs, self-hosted workflows, and the web.
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://developer.android.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/android/android-original-wordmark.svg" alt="android" width="40" height="40"/> </a> <a href="https://cordova.apache.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/apache_cordova/apache_cordova-icon.svg" alt="apachecordova" width="40" height="40"/> </a> <a href="https://www.arduino.cc/" target="_blank"> <img src="https://cdn.worldvectorlogo.com/logos/arduino-1.svg" alt="arduino" width="40" height="40"/> </a> <a href="https://www.gnu.org/software/bash/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gnu_bash/gnu_bash-icon.svg" alt="bash" width="40" height="40"/> </a> <a href="https://www.cprogramming.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="c" width="40" height="40"/> </a> <a href="https://www.w3schools.com/cpp/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/cplusplus/cplusplus-original.svg" alt="cplusplus" width="40" height="40"/> </a> <a href="https://www.docker.com/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg" alt="docker" width="40" height="40"/> </a> <a href="https://www.electronjs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/electron/electron-original.svg" alt="electron" width="40" height="40"/> </a> <a href="https://flutter.dev" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-icon.svg" alt="flutter" width="40" height="40"/> </a> <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a> <a href="https://golang.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/go/go-original.svg" alt="go" width="40" height="40"/> </a> <a href="https://www.w3.org/html/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original-wordmark.svg" alt="html5" width="40" height="40"/> </a> <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="javascript" width="40" height="40"/> </a> <a href="https://www.jenkins.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/jenkins/jenkins-icon.svg" alt="jenkins" width="40" height="40"/> </a> <a href="https://kubernetes.io" target="_blank"> <img src="https://www.vectorlogo.zone/logos/kubernetes/kubernetes-icon.svg" alt="kubernetes" width="40" height="40"/> </a> <a href="https://www.linux.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/linux/linux-original.svg" alt="linux" width="40" height="40"/> </a> <a href="https://www.nginx.com" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nginx/nginx-original.svg" alt="nginx" width="40" height="40"/> </a> <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a> <a href="https://www.qt.io/" target="_blank"> <img src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Qt_logo_2016.svg" alt="qt" width="40" height="40"/> </a> <a href="https://www.typescriptlang.org/" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg" alt="typescript" width="40" height="40"/> </a> </p>
+Independent developer based in Thailand. I like small tools with a clear job,
+calm interfaces, and infrastructure you can actually own.
 
-<p><img align="center" src="https://github-readme-stats.vercel.app/api/top-langs?username=wispdevon&show_icons=true&locale=en&layout=compact" alt="wispdevon" /></p>
+[![Website](https://img.shields.io/badge/Devon_Labs-Visit-111510?style=for-the-badge&labelColor=111510&color=d8ff4e)](https://devonlabs.space)
+[![GitHub](https://img.shields.io/badge/GitHub-wispdevon-111510?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wispdevon)
+[![Last.fm](https://img.shields.io/badge/Last.fm-wisp--111510?style=for-the-badge&logo=lastdotfm&logoColor=white&color=d51007)](https://www.last.fm/user/wisp-)
+
+</div>
+
+## What I make
+
+My recent work sits where photography, self-hosting, and practical software
+meet. I build end-to-end: product design, browser interfaces, backend services,
+data models, deployment, and the odd shell utility that makes a desktop feel
+more personal.
+
+- Photography tools that respect the image and the person behind it.
+- Self-hosted software with understandable data ownership.
+- Focused interfaces that stay out of the way.
+- Useful integrations between existing tools and services.
+
+## Selected work
+
+| Project | What it does | Built with |
+|---|---|---|
+| [**Immich Contact Sheet**](https://github.com/wispdevon/immich-contact) | Turns an Immich album into a composed, previewable contact sheet with full-frame, filmic, and classic grid layouts. | TypeScript, Express, Sharp, Docker |
+| [**Sharply Search**](https://github.com/wispdevon/sharplysearch) | Puts a live photography gear reference behind one Wayland keyboard shortcut, with fuzzy search and copy-ready specifications. | Bash, Wofi, `jq`, Sharply API |
+| [**Strider**](https://github.com/wispdevon/strider) | A collaborative Kanban workspace with passkeys, invites, assignments, subtasks, and a Hall of Fame for finished work. | Next.js, React, TypeScript, SQLite |
+| [**Sharply**](https://github.com/wispdevon/sharply) | A modern, crowd-sourced photography gear database with search, reviews, profiles, and editorial content. | Web application, photography data |
+
+## Working with
+
+```text
+TypeScript / JavaScript     Next.js / React / Node.js
+SQLite / data modeling     Docker / Linux / self-hosting
+Bash / desktop tooling     APIs / integrations / automation
+```
+
+I choose tools around the problem rather than collecting logos. Lately that
+usually means TypeScript for product work, SQLite for straightforward local
+ownership, Docker for repeatable deployment, and shell scripts for the useful
+glue in between.
+
+## Elsewhere
+
+I build under [Devon Labs](https://devonlabs.space), share code here on GitHub,
+and keep the soundtrack running on [Last.fm](https://www.last.fm/user/wisp-).
+
+<div align="center">
+  <sub>Building useful things, one sharp edge at a time.</sub>
+  <br><br>
+  <a href="#readme-top">Back to top</a>
+</div>
