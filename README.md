@@ -3,15 +3,6 @@
 
 <p align="left"> <img src="https://komarev.com/ghpvc/?username=wispdevon&label=Profile%20views&color=905f6a&style=flat" alt="wispdevon" /> </p>
 
-
-- 🔭 I’m currently working on [My Curriculum Virdae](https://devon.contact)
-
-- 🌱 I’m currently learning **Ethical Hacking**
-
-- 💬 Ask me about **Programming (mainly C#), Linux, Server Management**
-
-- 📫 Contact me on Discord **wisp#5350**
-
 <h3 align="left">Connect with me:</h3>
 <p align="left">
 <a href="https://www.last.fm/user/wisp-" target="blank"><img align="center" src="https://raw.githubusercontent.com/wispdevon/wispdevon/main/Lastfm.svg" alt="wispdevon" height="40" width="40" /></a>
