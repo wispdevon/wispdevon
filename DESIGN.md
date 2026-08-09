@@ -181,6 +181,19 @@ Always add a reduced-motion path. Preserve immediate state feedback under `prefe
 - For export tools, the exported artifact must match the visible preview.
 - Shadows, borders, spacing, masks, and shapes should be part of the same composition model in preview and export.
 
+## Social Preview Embeds
+
+Every public web app should ship a Discord/Open Graph preview instead of relying on crawler defaults.
+
+- Define a canonical public URL such as `SITE_URL` and use it as the metadata base.
+- Add `openGraph` and `twitter` metadata at the root layout level for app-wide previews.
+- Use `summary_large_image` for Twitter-compatible consumers.
+- Provide a `1200x630` preview image in `public/`, preferably SVG or a generated bitmap that follows this design system.
+- The preview should show the product name, a concrete offer or workflow, and a truthful representation of the main surface.
+- Avoid tiny screenshots, dark blurred stock images, and copy-heavy cards.
+- The preview image should be absolute-resolvable through metadata; crawlers such as Discord must not see a localhost URL in production.
+- Keep the preview accessible with a meaningful image `alt` value in metadata and `title`/`desc` if the asset is SVG.
+
 ## States And Accessibility
 
 Every feature-complete screen needs loading, empty, error, disabled, active, hover, focus, and success states where applicable.
