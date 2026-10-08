@@ -9,7 +9,11 @@ I like software with a clear job: calm interfaces, useful defaults, and control
 over where your data lives. My work spans product design, browser and native
 interfaces, image processing, backend services, and deployment.
 
-[Devon Labs](https://devonlabs.space) · [Last.fm](https://www.last.fm/user/wisp-)
+<p>
+  <a href="https://devonlabs.space" title="Visit Devon Labs"><img src="assets/icons/website.svg" width="44" height="44" alt="Visit Devon Labs"></a>&nbsp;
+  <a href="https://github.com/wispdevon" title="Browse my GitHub projects"><img src="assets/icons/github.svg" width="44" height="44" alt="Browse my GitHub projects"></a>&nbsp;
+  <a href="https://www.last.fm/user/wisp-" title="Listen along on Last.fm"><img src="assets/icons/music.svg" width="44" height="44" alt="Listen along on Last.fm"></a>
+</p>
 
 ## Selected work
 
