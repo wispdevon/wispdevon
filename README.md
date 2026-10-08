@@ -1,61 +1,111 @@
-<a id="readme-top"></a>
-
-<div align="center">
-
 # Hey, I'm Wisp.
 
-### I build thoughtful software for photographs, self-hosted workflows, and the web.
+Independent developer based in Thailand, building under **Devon Labs**.
+I make photography tools, self-hosted workspaces, and small utilities for the
+desktop and browser. Devon Labs brings that work together: focused software
+that helps you make something, organize your work, or rediscover what you own.
 
-Independent developer based in Thailand. I like small tools with a clear job,
-calm interfaces, and infrastructure you can actually own.
+I like software with a clear job: calm interfaces, useful defaults, and control
+over where your data lives. My work spans product design, browser and native
+interfaces, image processing, backend services, and deployment.
 
-[![Website](https://img.shields.io/badge/Devon_Labs-Visit-111510?style=for-the-badge&labelColor=111510&color=d8ff4e)](https://devonlabs.space)
-[![GitHub](https://img.shields.io/badge/GitHub-wispdevon-111510?style=for-the-badge&logo=github&logoColor=white)](https://github.com/wispdevon)
-[![Last.fm](https://img.shields.io/badge/Last.fm-wisp--111510?style=for-the-badge&logo=lastdotfm&logoColor=white&color=d51007)](https://www.last.fm/user/wisp-)
-
-</div>
-
-## What I make
-
-My recent work sits where photography, self-hosting, and practical software
-meet. I build end-to-end: product design, browser interfaces, backend services,
-data models, deployment, and the odd shell utility that makes a desktop feel
-more personal.
-
-- Photography tools that respect the image and the person behind it.
-- Self-hosted software with understandable data ownership.
-- Focused interfaces that stay out of the way.
-- Useful integrations between existing tools and services.
+<p>
+  <a href="https://devonlabs.space" title="Visit Devon Labs"><img src="assets/icons/website.svg" width="44" height="44" alt="Visit Devon Labs"></a>&nbsp;
+  <a href="https://github.com/wispdevon" title="Browse my GitHub projects"><img src="assets/icons/github.svg" width="44" height="44" alt="Browse my GitHub projects"></a>&nbsp;
+  <a href="https://www.last.fm/user/wisp-" title="Listen along on Last.fm"><img src="assets/icons/music.svg" width="44" height="44" alt="Listen along on Last.fm"></a>
+</p>
 
 ## Selected work
 
-| Project | What it does | Built with |
-|---|---|---|
-| [**Immich Contact Sheet**](https://github.com/wispdevon/immich-contact) | Turns an Immich album into a composed, previewable contact sheet with full-frame, filmic, and classic grid layouts. | TypeScript, Express, Sharp, Docker |
-| [**Sharply Search**](https://github.com/wispdevon/sharplysearch) | Puts a live photography gear reference behind one Wayland keyboard shortcut, with fuzzy search and copy-ready specifications. | Bash, Wofi, `jq`, Sharply API |
-| [**Strider**](https://github.com/wispdevon/strider) | A collaborative Kanban workspace with passkeys, invites, assignments, subtasks, and a Hall of Fame for finished work. | Next.js, React, TypeScript, SQLite |
-| [**Sharply**](https://github.com/wispdevon/sharply) | A modern, crowd-sourced photography gear database with search, reviews, profiles, and editorial content. | Web application, photography data |
+### [HeadshotFlow](https://github.com/wispdevon/GibbonPfp)
 
-## Working with
+An offline portrait editor and command-line tool for framing, refining, and
+exporting profile pictures. Face-aware cropping, RAW development, local
+background removal, and batch exports—all processed on your device, with
+originals left untouched.
 
-```text
-TypeScript / JavaScript     Next.js / React / Node.js
-SQLite / data modeling     Docker / Linux / self-hosting
-Bash / desktop tooling     APIs / integrations / automation
-```
+**C++20 · Qt 6 / QML · OpenCV · ONNX Runtime · LibRaw**
 
-I choose tools around the problem rather than collecting logos. Lately that
-usually means TypeScript for product work, SQLite for straightforward local
-ownership, Docker for repeatable deployment, and shell scripts for the useful
-glue in between.
+[Download a release](https://github.com/wispdevon/GibbonPfp/releases/latest).
+The repository and CLI retain the GibbonPfp name for compatibility.
+
+### [Quester](https://github.com/wispdevon/quester)
+
+A personal photo quest workspace with a new prompt every two weeks. Arrange
+photos without cropping, style the composition, and save completed quests.
+Includes Immich integration, passkey-backed sign-in, and browser-encrypted
+storage for uploads and saved Immich credentials.
+
+**TypeScript · Next.js · React · SQLite · WebCrypto**
+
+[Open Quester](https://quest.devonlabs.space) — sign-in uses the Devon Labs
+passkey authority.
+
+### [Immich Contact Sheet](https://github.com/wispdevon/immich-contact)
+
+Turn an Immich album into a contact sheet you can preview and download.
+Choose a classic grid, preserve each photo's full frame, or compose a film-strip
+layout, with JPEG and PNG export.
+
+**TypeScript · Node.js · Express · Sharp · Docker**
+
+[Open Immich Contact Sheet](https://sheets.devonlabs.space/) with your own
+Immich connection, or self-host it.
+
+### [Immichinko](https://github.com/wispdevon/Immichinko)
+
+Rediscover your Immich library through a daily session of ten photographs.
+Favorite photos back to Immich, pass for now, or return to them later. Durable
+sessions, local cooldowns, and a quiet progress view make the habit manageable.
+Designed for one personal account on a private network or behind authentication.
+
+**TypeScript · SvelteKit · SQLite · Docker · Immich**
+
+### [Strider](https://github.com/wispdevon/strider)
+
+A collaborative Kanban workspace with passkeys, board invites, assignments,
+and subtasks. Move work through planning, active work, and review, then revisit
+finished projects in the Hall of Fame.
+
+**TypeScript · Next.js · React · SQLite · SimpleWebAuthn**
+
+### [Sharply Search](https://github.com/wispdevon/sharplysearch)
+
+A Wayland launcher for searching cameras and lenses through the Sharply API.
+Find gear, inspect specifications, and copy details without leaving the
+keyboard. An independent community tool built around Sharply Photo's catalog.
+
+**Bash · Wofi · jq · Wayland**
+
+### [NoMarky](https://github.com/wispdevon/NoMarky)
+
+A small YouTube extension for Firefox and Chrome/Chromium. Hide sidebar
+recommendations from a configurable creator list and optionally jump away
+from a blocked creator's video. Available to load locally; the default list
+targets Markiplier-related channels.
+
+**JavaScript · WebExtensions · Manifest V3**
+
+## How I build
+
+- **Respect the photograph.** Make framing and processing choices visible, and
+  let people inspect the result before exporting.
+- **Keep ownership clear.** Use local processing, self-hosting, and encrypted
+  storage where they fit the workflow.
+- **Keep interfaces focused.** Put controls in the order people use them, with
+  readable layouts and predictable behavior.
+- **Choose tools for the job.** TypeScript for web products, C++ and Qt for
+  native image tools, SQLite for persistence, and shell scripts for desktop glue.
+
+## Work with me
+
+I build across product design, frontend interfaces, image processing, backend
+services, and deployment. The projects above show that work in running tools
+and source code. My [photography portfolio](https://devonlabs.space) includes
+contact links, or you can open a project's issue tracker to discuss a contribution.
 
 ## Elsewhere
 
-I build under [Devon Labs](https://devonlabs.space), share code here on GitHub,
-and keep the soundtrack running on [Last.fm](https://www.last.fm/user/wisp-).
-
-<div align="center">
-  <sub>Building useful things, one sharp edge at a time.</sub>
-  <br><br>
-  <a href="#readme-top">Back to top</a>
-</div>
+Explore [Devon Labs](https://devonlabs.space), browse my
+[public repositories](https://github.com/wispdevon?tab=repositories), or see
+what's playing on [Last.fm](https://www.last.fm/user/wisp-).
