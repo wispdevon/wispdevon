@@ -1,0 +1,204 @@
+{
+  "prepared_on": "2026-10-09",
+  "status": "proposed_not_applied",
+  "owner": "wispdevon",
+  "brand": "Devon Labs",
+  "profile": {
+    "display_name": "Wisp",
+    "bio": "Building photography tools, self-hosted workspaces, and desktop utilities at Devon Labs. Independent developer in Thailand.",
+    "website": "https://devonlabs.space",
+    "pins": [
+      "wispdevon/GibbonPfp",
+      "wispdevon/immich-contact",
+      "wispdevon/Immichinko",
+      "wispdevon/quester",
+      "wispdevon/strider",
+      "wispdevon/sharplysearch"
+    ]
+  },
+  "repositories": [
+    {
+      "repository": "wispdevon/GibbonPfp",
+      "description": "HeadshotFlow: offline portrait editor and CLI for face-aware crops, RAW development, local background removal, and batch export. A Devon Labs project.",
+      "homepage": "https://github.com/wispdevon/GibbonPfp/releases/latest",
+      "topics": [
+        "photography",
+        "portrait",
+        "image-processing",
+        "background-removal",
+        "qt",
+        "qml",
+        "cpp",
+        "offline",
+        "batch-processing"
+      ],
+      "pin_order": 1,
+      "priority": "flagship",
+      "readme_draft": "GibbonPfp/README.md"
+    },
+    {
+      "repository": "wispdevon/immich-contact",
+      "description": "Turn Immich albums into previewable contact sheets with classic grids, full-frame layouts, and film strips. Self-hosted, with JPEG/PNG export. By Devon Labs.",
+      "homepage": "https://sheets.devonlabs.space/",
+      "topics": [
+        "immich",
+        "photography",
+        "contact-sheet",
+        "self-hosted",
+        "image-processing",
+        "docker",
+        "typescript",
+        "sharp"
+      ],
+      "pin_order": 2,
+      "priority": "flagship",
+      "readme_draft": "immich-contact/README.md"
+    },
+    {
+      "repository": "wispdevon/Immichinko",
+      "description": "Rediscover your Immich library ten photos a day. Favorite, Pass, or Later with durable sessions, local cooldowns, and Docker deployment. By Devon Labs.",
+      "homepage": "https://github.com/wispdevon/Immichinko#readme",
+      "topics": [
+        "immich",
+        "photography",
+        "photo-library",
+        "self-hosted",
+        "sveltekit",
+        "sqlite",
+        "docker",
+        "typescript"
+      ],
+      "pin_order": 3,
+      "priority": "flagship",
+      "readme_draft": "Immichinko/README.md"
+    },
+    {
+      "repository": "wispdevon/quester",
+      "description": "A personal photo quest workspace with full-frame layouts, composition controls, Immich integration, and browser-encrypted storage. A Devon Labs project.",
+      "homepage": "https://quest.devonlabs.space",
+      "topics": [
+        "photography",
+        "photo-collage",
+        "immich",
+        "nextjs",
+        "typescript",
+        "webcrypto",
+        "sqlite",
+        "oidc"
+      ],
+      "pin_order": 4,
+      "priority": "flagship",
+      "readme_draft": "quester/README.md"
+    },
+    {
+      "repository": "wispdevon/strider",
+      "description": "Collaborative Kanban with passkeys, board invites, assignments, subtasks, and a Hall of Fame for completed work. Next.js and SQLite. By Devon Labs.",
+      "homepage": "https://github.com/wispdevon/strider#readme",
+      "topics": [
+        "kanban",
+        "project-management",
+        "self-hosted",
+        "passkeys",
+        "webauthn",
+        "nextjs",
+        "sqlite",
+        "typescript"
+      ],
+      "pin_order": 5,
+      "priority": "flagship",
+      "readme_draft": "strider/README.md"
+    },
+    {
+      "repository": "wispdevon/sharplysearch",
+      "description": "Find cameras and lenses from Wayland with Wofi, fuzzy search, live Sharply API specifications, and clipboard copying. Independent launcher by Devon Labs.",
+      "homepage": "https://github.com/wispdevon/sharplysearch#readme",
+      "topics": [
+        "photography",
+        "wayland",
+        "wofi",
+        "hyprland",
+        "bash",
+        "camera",
+        "fuzzy-search"
+      ],
+      "pin_order": 6,
+      "priority": "flagship",
+      "readme_draft": "sharplysearch/README.md"
+    },
+    {
+      "repository": "wispdevon/NoMarky",
+      "description": "A Firefox and Chromium extension to hide YouTube sidebar recommendations from selected creators and optionally jump away from blocked videos. By Devon Labs.",
+      "homepage": "https://github.com/wispdevon/NoMarky#readme",
+      "topics": [
+        "youtube",
+        "browser-extension",
+        "firefox",
+        "chromium",
+        "webextensions",
+        "javascript",
+        "manifest-v3"
+      ],
+      "pin_order": null,
+      "priority": "secondary",
+      "readme_draft": "NoMarky/README.md"
+    },
+    {
+      "repository": "wispdevon/wifiqr",
+      "description": "A macOS shell utility that displays the current WPA Wi-Fi network as a terminal QR code using Keychain and qrencode. A Devon Labs project.",
+      "homepage": "https://github.com/wispdevon/wifiqr#readme",
+      "topics": [
+        "macos",
+        "wifi",
+        "qr-code",
+        "bash",
+        "command-line",
+        "keychain"
+      ],
+      "pin_order": null,
+      "priority": "secondary",
+      "readme_draft": "wifiqr/README.md"
+    },
+    {
+      "repository": "wispdevon/ASCII-ART",
+      "description": "Experimental C# and Magick.NET renderer for randomized ASCII dragon artwork with element colors and loot images. A Devon Labs experiment.",
+      "homepage": "",
+      "topics": [
+        "ascii-art",
+        "csharp",
+        "magick-net",
+        "generative-art",
+        "experimental"
+      ],
+      "pin_order": null,
+      "priority": "secondary",
+      "readme_draft": "ASCII-ART/README.md"
+    },
+    {
+      "repository": "wispdevon/schoolcrm",
+      "description": "Placeholder for a Devon Labs school CRM project. No application implementation or installation workflow yet.",
+      "homepage": "",
+      "topics": [
+        "prototype",
+        "devon-labs"
+      ],
+      "pin_order": null,
+      "priority": "secondary",
+      "readme_draft": "schoolcrm/README.md"
+    },
+    {
+      "repository": "wispdevon/wispdevon",
+      "description": "Wisp / Devon Labs: photography tools, self-hosted workspaces, and focused desktop and browser utilities.",
+      "homepage": "https://devonlabs.space",
+      "topics": [
+        "github-profile",
+        "portfolio",
+        "photography",
+        "self-hosted",
+        "devon-labs"
+      ],
+      "pin_order": null,
+      "priority": "profile",
+      "readme_draft": "../README.md"
+    }
+  ]
+}
